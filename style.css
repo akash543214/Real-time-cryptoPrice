@@ -1,0 +1,33 @@
+.card{
+   
+    width: 12rem;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.coinTitle{
+    font-weight: bold;
+}
+.market{
+    font-weight: bold;
+   
+}
+
+.volume{
+    font-weight: bold;
+}
+.change{
+    font-weight: bold;
+}
+
+.rangeContainer{
+    margin-top: 30px;
+    display:flex;
+     justify-content: center;
+}
